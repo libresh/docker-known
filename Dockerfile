@@ -1,0 +1,11 @@
+FROM known
+
+RUN cd /usr/src/known/IdnoPlugins \
+ && curl -L https://github.com/idno/Twitter/archive/master.zip -o twitter.zip \
+ && unzip twitter.zip \
+ && mv Twitter-master/ Twitter \
+ && rm twitter.zip \
+ && curl -L https://github.com/idno/Facebook/archive/master.zip -o facebook.zip \
+ && unzip facebook.zip \
+ && mv Facebook-master/ Facebook \
+ && rm facebook.zip
