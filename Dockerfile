@@ -8,7 +8,7 @@ RUN cd /usr/src/known/IdnoPlugins \
  && curl -L https://github.com/idno/Facebook/archive/master.zip -o facebook.zip \
  && unzip facebook.zip \
  && mv Facebook-master/ Facebook \
- && rm facebook.zip
+ && rm facebook.zip \
  && curl -L https://github.com/idno/Markdown/archive/master.zip -o markdown.zip \
  && unzip markdown.zip \
  && mv Markdown-master/ Markdown \
