@@ -9,3 +9,11 @@ RUN cd /usr/src/known/IdnoPlugins \
  && unzip facebook.zip \
  && mv Facebook-master/ Facebook \
  && rm facebook.zip
+ && curl -L https://github.com/idno/Markdown/archive/master.zip -o markdown.zip \
+ && unzip markdown.zip \
+ && mv Markdown-master/ Markdown \
+ && rm markdown.zip \
+ && curl -L https://github.com/pierreozoux/KnownAppNet/archive/master.zip -o app-net.zip \
+ && unzip app-net.zip \
+ && mv KnownAppNet-master AppNet \
+ && rm app-net.zip
