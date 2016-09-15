@@ -16,4 +16,13 @@ RUN cd /usr/src/known/IdnoPlugins \
  && curl -L https://github.com/pierreozoux/KnownAppNet/archive/master.zip -o app-net.zip \
  && unzip app-net.zip \
  && mv KnownAppNet-master AppNet \
- && rm app-net.zip
+ && rm app-net.zip \
+ && curl -L https://github.com/idno/SoundCloud/archive/master.zip -o soundcloud.zip \
+ && unzip soundcloud.zip \
+ && mv SoundCloud-master/ SoundCloud \
+ && rm soundcloud.zip \
+ && curl -L https://github.com/idno/KnownLinkedin/archive/master.zip -o linkedin.zip \
+ && unzip linkedin.zip \
+ && mv Linkedin-master/Linkedin Linkedin \
+ && rm soundcloud.zip && rm -rf Linkedin-master
+ 
