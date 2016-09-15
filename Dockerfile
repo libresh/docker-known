@@ -23,6 +23,5 @@ RUN cd /usr/src/known/IdnoPlugins \
  && rm soundcloud.zip \
  && curl -L https://github.com/idno/KnownLinkedin/archive/master.zip -o linkedin.zip \
  && unzip linkedin.zip \
- && mv Linkedin-master/Linkedin Linkedin \
- && rm soundcloud.zip && rm -rf Linkedin-master
- 
+ && mv KnownLinkedin-master/LinkedIn LinkedIn \
+ && rm linkedin.zip && rm -rf KnownLinkedin-master
